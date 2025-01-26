@@ -79,7 +79,7 @@ public:
   itkNewMacro(Self);
 
   /** Runtime information support. */
-  itkTypeMacro(MorphologicalSharpeningImageFilter, ImageToImageFilter);
+  itkOverrideGetNameOfClassMacro(MorphologicalSharpeningImageFilter);
 
   /** Pixel Type of the input image */
   using InputImageType = TInputImage;

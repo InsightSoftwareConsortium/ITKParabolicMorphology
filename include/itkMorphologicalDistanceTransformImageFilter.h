@@ -72,7 +72,7 @@ public:
   itkNewMacro(Self);
 
   /** Runtime information support. */
-  itkTypeMacro(MorphologicalDistanceTransformImageFilter, ImageToImageFilter);
+  itkOverrideGetNameOfClassMacro(MorphologicalDistanceTransformImageFilter);
 
   /** Pixel Type of the input image */
   using InputImageType = TInputImage;

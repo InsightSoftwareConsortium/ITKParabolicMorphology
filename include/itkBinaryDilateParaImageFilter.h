@@ -80,7 +80,7 @@ public:
   itkNewMacro(Self);
 
   /** Runtime information support. */
-  itkTypeMacro(BinaryDilateParaImageFilter, ImageToImageFilter);
+  itkOverrideGetNameOfClassMacro(BinaryDilateParaImageFilter);
 
   /** Pixel Type of the input image */
   using InputImageType = TInputImage;
