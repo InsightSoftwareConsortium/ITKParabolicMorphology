@@ -122,8 +122,8 @@ public:
 #ifdef ITK_USE_CONCEPT_CHECKING
   /** Begin concept checking */
   itkConceptMacro(SameDimension,
-                  (Concept::SameDimension<itkGetStaticConstMacro(InputImageDimension),
-                                          itkGetStaticConstMacro(OutputImageDimension)>));
+                  (Concept::SameDimension<Self::InputImageDimension,
+                                          Self::OutputImageDimension)>);
 
   itkConceptMacro(Comparable, (Concept::Comparable<InputPixelType>));
 
