@@ -19,7 +19,7 @@
 #define itkMorphologicalSharpeningImageFilter_h
 
 #include "itkImageToImageFilter.h"
-//#include "itkProgressReporter.h"
+// #include "itkProgressReporter.h"
 #include "itkCastImageFilter.h"
 #include "itkParabolicErodeImageFilter.h"
 #include "itkParabolicDilateImageFilter.h"
@@ -140,9 +140,7 @@ public:
 
 #ifdef ITK_USE_CONCEPT_CHECKING
   /** Begin concept checking */
-  itkConceptMacro(SameDimension,
-                  (Concept::SameDimension<Self::InputImageDimension,
-                                          Self::OutputImageDimension)>);
+  itkConceptMacro(SameDimension, (Concept::SameDimension < Self::InputImageDimension, Self::OutputImageDimension) >);
 
   itkConceptMacro(Comparable, (Concept::Comparable<InputPixelType>));
 
