@@ -19,7 +19,7 @@
 #define itkMorphologicalSharpeningImageFilter_h
 
 #include "itkImageToImageFilter.h"
-//#include "itkProgressReporter.h"
+// #include "itkProgressReporter.h"
 #include "itkCastImageFilter.h"
 #include "itkParabolicErodeImageFilter.h"
 #include "itkParabolicDilateImageFilter.h"

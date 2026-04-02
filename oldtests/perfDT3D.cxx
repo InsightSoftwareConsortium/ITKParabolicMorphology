@@ -5,12 +5,12 @@
 #include "itkSimpleFilterWatcher.h"
 #include "itkChangeInformationImageFilter.h"
 
-//#include "plotutils.h"
+// #include "plotutils.h"
 #include "ioutils.h"
 
 #include "itkBinaryThresholdImageFilter.h"
 #include "itkMorphologicalSignedDistanceTransformImageFilter.h"
-//#include "itkMorphologicalDistanceTransformImageFilter.h"
+// #include "itkMorphologicalDistanceTransformImageFilter.h"
 #include "itkSignedMaurerDistanceMapImageFilter.h"
 
 #include "itkDanielssonDistanceMapImageFilter.h"
